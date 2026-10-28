@@ -1,0 +1,14 @@
+{
+  "note": "Invented example of the split-spec format read by build_split_packets.py. The question and wording are made up; they are not from the study.",
+  "splits": [
+    {
+      "case": "demo-1",
+      "parent": "demo-1.W2",
+      "parent_weight": "2",
+      "subs": [
+        {"id": "demo-1.W2a", "requirement": "Names at least two kinds of evidence used to compare the options.", "weight": "1"},
+        {"id": "demo-1.W2b", "requirement": "States how each kind of evidence would change the recommendation.", "weight": "1"}
+      ]
+    }
+  ]
+}

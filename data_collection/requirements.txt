@@ -1,0 +1,6 @@
+datasets
+sentence-transformers
+hdbscan
+scikit-learn
+pandas
+numpy

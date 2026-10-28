@@ -1,0 +1,9 @@
+.env
+outputs/
+packets*/
+key*/
+*.csv
+*.jsonl
+*.xlsx
+__pycache__/
+.cache/
