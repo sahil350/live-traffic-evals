@@ -25,6 +25,8 @@ produce will differ from the paper's until you add examples of your own.
 
 Headline figures are in the paper.
 
+The analysis scripts read judge output, keys and workbooks that are not released, so the paper's figures can be reproduced only with those artifacts. The scripts are here so the method is inspectable.
+
 ## Layout
 
 ```
@@ -43,6 +45,9 @@ data_collection/
   build_split_packets.py              replaces multi-part items with atomic sub-items
   run_local_judge.py                  runs the judge locally with MLX
   score_judge_runs.py, aggregate_final.py, analyze_splitall.py, analyze_serper_and_split.py   scoring and reports
+  bootstrap_backend_diff.py           paired search-backend difference with a bootstrap interval
+  flag_compound_items.py              text heuristic that flagged multi-requirement checklist items
+  length_rank_corr.py                 rank correlation of answer length and checklist score (reads a CSV you supply)
   judge_system_prompt_v2.txt          the judge prompt used for every reported result
   judge_system_prompt_v3.txt          a longer variant that lost to v2 under a pick rule fixed in advance
 docker/                               images for the selection stage and the topic classifier
